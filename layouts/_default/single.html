@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main id="main" class="document">
+  <a class="back-link" href="{{ "/" | relURL }}">&larr; Home</a>
+  <article>
+    <header class="document-header">
+      <p class="eyebrow">EE 2301 <span aria-hidden="true">/</span> Resource index</p>
+      <h1>{{ .Title }}</h1>
+    </header>
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </article>
+</main>
+{{ end }}

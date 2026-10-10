@@ -1,0 +1,28 @@
+services:
+  site:
+    build:
+      context: .
+      target: preview
+    ports:
+      - "127.0.0.1:1313:1313"
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    environment:
+      HOME: /tmp
+      HUGO_CACHEDIR: /tmp/hugo_cache
+    tmpfs:
+      - /tmp
+    volumes:
+      - type: bind
+        source: .
+        target: /site
+        read_only: true
+      - type: volume
+        source: generated-content
+        target: /site/content
+
+volumes:
+  generated-content:

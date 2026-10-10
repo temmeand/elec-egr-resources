@@ -1,0 +1,15 @@
+baseURL: https://temmeand.github.io/elec-egr-resources/
+locale: en-US
+title: Electrical Engineering Resources
+enableRobotsTXT: true
+disableKinds:
+  - section
+  - taxonomy
+  - term
+staticDir:
+  - static
+  - resources
+markup:
+  goldmark:
+    renderer:
+      unsafe: false

@@ -1,3 +1,9 @@
+#+title: Electrical Engineering Resources
+#+hugo_base_dir: .
+#+hugo_section: resources
+#+hugo_slug: ee2301
+#+options: toc:nil num:nil
+
 - [[https://www.cedengineering.com/userfiles/E01-002%20-%20Introduction%20to%20Boolean%20Algebra%20and%20Logic%20Circuits%20-%20US.pdf][Introduction to Boolean Algebra and Logic Circuits by Jeffrey Cwalinski, CED Engineering]]
 - [[https://ieeexplore.ieee.org/browse/standards/collection/ieee?contentType=standards&queryText=logic][IEEE standards related to logic]]
 - [[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7440753][91-1973 - IEEE Graphic Symbols for Logic Diagrams (Two State Devices)]]
