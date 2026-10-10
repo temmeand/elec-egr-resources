@@ -1,0 +1,18 @@
+* Electrical Engineering Resources
+
+A collection of resources for engineering students and electrical engineers.
+
+** AI attribution
+
+Assisted-by: LLM GitHub Copilot GPT-6 Luna
+
+** License
+
+[[https://github.com/temmeand/elec-egr-resources][Electrical Engineering Resources]]
+Copyright (c) 2026 by Andrew Temme
+is licensed under
+[[https://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International]]
+[[file:resources/cc.svg]]
+[[file:resources/by.svg]]
+[[file:resources/nc.svg]]
+[[file:resources/sa.svg]]
