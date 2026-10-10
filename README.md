@@ -78,11 +78,8 @@ the site in Docker and deploys it to
 configure **Settings > Pages > Build and deployment > Source** to use
 **GitHub Actions**.
 
-Protect `pages` under **Settings > Branches** (or add a repository ruleset
-targeting `pages`): require pull requests and at least one approval, restrict
-direct pushes, and require the `Publish site / build` check before merging.
-Pull requests targeting `pages` run the Docker build but cannot deploy; only
-pushes to `pages` can publish.
+Push directly to `pages` to build and publish the site; no pull request is
+required. The `github-pages` environment allows deployments from `pages`.
 
 The Dockerfile pins the Hugo release and verifies its architecture-specific
 checksum, and pins ox-hugo and tomelr by commit. Dependabot checks the Docker

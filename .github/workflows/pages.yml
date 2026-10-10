@@ -1,9 +1,6 @@
 name: Publish site
 
 on:
-  pull_request:
-    branches:
-      - pages
   push:
     branches:
       - pages
@@ -43,7 +40,7 @@ jobs:
 
   deploy:
     needs: build
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/pages'
+    if: github.ref == 'refs/heads/pages'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
