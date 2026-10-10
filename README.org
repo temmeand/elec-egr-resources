@@ -12,7 +12,11 @@ Assisted-by: LLM GitHub Copilot GPT-6 Luna
 Copyright (c) 2026 by Andrew Temme
 is licensed under
 [[https://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International]]
+#+ATTR_HTML: :style max-width:1em;max-height:1em;margin-left:.2em;
 [[file:resources/cc.svg]]
+#+ATTR_HTML: :style max-width:1em;max-height:1em;margin-left:.2em;
 [[file:resources/by.svg]]
+#+ATTR_HTML: :style max-width:1em;max-height:1em;margin-left:.2em;
 [[file:resources/nc.svg]]
+#+ATTR_HTML: :style max-width:1em;max-height:1em;margin-left:.2em;
 [[file:resources/sa.svg]]
