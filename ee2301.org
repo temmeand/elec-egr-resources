@@ -1,0 +1,8 @@
+- [[https://www.cedengineering.com/userfiles/E01-002%20-%20Introduction%20to%20Boolean%20Algebra%20and%20Logic%20Circuits%20-%20US.pdf][Introduction to Boolean Algebra and Logic Circuits by Jeffrey Cwalinski, CED Engineering]]
+- [[https://ieeexplore.ieee.org/browse/standards/collection/ieee?contentType=standards&queryText=logic][IEEE standards related to logic]]
+- [[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7440753][91-1973 - IEEE Graphic Symbols for Logic Diagrams (Two State Devices)]]
+- [[https://ieeexplore.ieee.org/document/35042/][991-1986 - IEEE Standard for Logic Circuit Diagrams]]
+- [[https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=29104][315A-1986 - American National Standard - Supplement to Graphic Symbols for Electrical and Electronics Diagrams]]
+- [[https://en.wikipedia.org/wiki/Gray_code][Gray code]]
+- [[https://www.mathworks.com/help/comm/ug/symbol-mapping-examples.html#bqfq1zh-1][Gray Encode Modulated Signal - Mathworks/MATLAB]]
+- [[https://www.electronics-tutorials.ws/logic/pull-up-resistor.html][Pull-up Resistors]]
