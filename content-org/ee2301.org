@@ -16,10 +16,4 @@
   + [[https://www.mathworks.com/help/comm/ug/symbol-mapping-examples.html#bqfq1zh-1][Gray Encode Modulated Signal - Mathworks/MATLAB]]
 - [[https://www.electronics-tutorials.ws/logic/pull-up-resistor.html][Pull-up Resistors]]
 - Timing
-  + [[//www.plantuml.com/plantuml/png/XO_DIlD058Rtvog6V8jF5sAJkAmIgE16K7HZkvicOpeuF-7C19gMtBlpCqrhBRWeftdESzwygOobQ7ifO6xi8DW3M2wvQXyvRP5AiWT2dhbY2oqq4ejKcOuYKzPnPpBXTa4wrVwL3epkLsjLS_DRQ2X-jSYOIjwQAuh37ze8yzlKKUg6kN3PqTe2L3S5f8HiUPzdX1eoJ6ILo6uY7oHyjF4qxhPmQ9gH05hiygE_ZD9m9Fy3KPVkYXDhbRJT1Q-Sl9StSlNf_WkYUzlrzZee6W5y3S8DsMzuqp0rUb2SW_87WAr_p668OnU72dG6suHTfGWqHW3d3HS0bVEZjV0ZUqNTqPPQbhdT8JDFcJF7YfZheSO8q-cJuBRU-BjoUcNSl5kw5Y7n3YgccbwARm00][Glitch in \(f=xy+\bar{x}z\)]] (You should draw out the circuit using two AND gates, an OR gate, and an inverter on $x$. Also make a K-map for this}
-
-
-\begin{equation}
-\label{eq:1}
-C = W\log_{2} (1+\mathrm{SNR})
-\end{equation}
+  + [[//www.plantuml.com/plantuml/png/XO_DIlD058Rtvog6V8jF5sAJkAmIgE16K7HZkvicOpeuF-7C19gMtBlpCqrhBRWeftdESzwygOobQ7ifO6xi8DW3M2wvQXyvRP5AiWT2dhbY2oqq4ejKcOuYKzPnPpBXTa4wrVwL3epkLsjLS_DRQ2X-jSYOIjwQAuh37ze8yzlKKUg6kN3PqTe2L3S5f8HiUPzdX1eoJ6ILo6uY7oHyjF4qxhPmQ9gH05hiygE_ZD9m9Fy3KPVkYXDhbRJT1Q-Sl9StSlNf_WkYUzlrzZee6W5y3S8DsMzuqp0rUb2SW_87WAr_p668OnU72dG6suHTfGWqHW3d3HS0bVEZjV0ZUqNTqPPQbhdT8JDFcJF7YfZheSO8q-cJuBRU-BjoUcNSl5kw5Y7n3YgccbwARm00][Timing diagram for glitch in the following circuit:]]\(f=xy+\bar{x}z\) (You should draw out the circuit using two AND gates, an OR gate, and an inverter on $x$. Also make a K-map for this}
