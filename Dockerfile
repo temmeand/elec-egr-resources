@@ -46,4 +46,4 @@ RUN hugo --minify
 
 FROM build-base AS preview
 EXPOSE 1313
-CMD ["sh", "-c", "emacs --batch --load scripts/export-org.el && hugo server --bind 0.0.0.0 --noBuildLock --renderToMemory --cacheDir /tmp/hugo_cache"]
+CMD ["sh", "-c", "emacs --batch --load scripts/export-org.el && hugo server --bind 0.0.0.0 --disableFastRender --noBuildLock --renderToMemory --cacheDir /tmp/hugo_cache"]

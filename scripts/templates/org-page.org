@@ -1,5 +1,5 @@
 #+title: @@TITLE@@
-#+hugo_base_dir: .
+#+hugo_base_dir: ..
 #+hugo_section: resources
 #+hugo_slug: @@SLUG@@
 #+options: toc:nil num:nil

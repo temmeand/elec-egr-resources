@@ -33,7 +33,7 @@ if [[ -z "$slug" ]]; then
   exit 2
 fi
 
-output_file="$site_root/$slug.org"
+output_file="$site_root/content-org/$slug.org"
 # Fail early for the common duplicate case. The later hard-link operation also
 # checks atomically, so a file created after this test cannot be overwritten.
 if [[ -e "$output_file" ]]; then
@@ -53,7 +53,7 @@ escaped_title="$(escape_sed_replacement "$title")"
 # filesystem lets ln create the final name atomically without replacing an
 # existing page. The trap removes the temporary file if substitution or linking
 # fails partway through.
-temp_file="$(mktemp "$site_root/.${slug}.org.XXXXXX")"
+temp_file="$(mktemp "$site_root/content-org/.${slug}.org.XXXXXX")"
 trap 'rm -f "$temp_file"' EXIT
 sed \
   -e "s|@@TITLE@@|$escaped_title|g" \
