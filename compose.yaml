@@ -15,14 +15,9 @@ services:
       HUGO_CACHEDIR: /tmp/hugo_cache
     tmpfs:
       - /tmp
+      - /site/content/resources:mode=1777
     volumes:
       - type: bind
         source: .
         target: /site
         read_only: true
-      - type: volume
-        source: generated-content
-        target: /site/content
-
-volumes:
-  generated-content:

@@ -6,11 +6,20 @@
     <meta name="description" content="{{ .Description | default site.Title }}">
     <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
     <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [["$", "$"], ["\\(", "\\)"]],
+          displayMath: [["$$", "$$"], ["\\[", "\\]"]]
+        }
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
-      <a class="wordmark" href="{{ "/" | relURL }}">EE<span>&middot;</span>Resources</a>
+      <a class="wordmark" href="{{ site.Home.RelPermalink }}">EE<span>&middot;</span>Resources</a>
       <nav aria-label="Main navigation">
         <a href="{{ "resources/ee2301/" | relURL }}">Resources</a>
         <a href="https://github.com/temmeand/elec-egr-resources">Source</a>

@@ -1,0 +1,74 @@
+#+title: timing-plantuml
+#+hugo_base_dir: ..
+#+hugo_section: resources
+#+hugo_slug: timing-plantuml
+#+options: toc:nil num:nil
+#+hugo_tags: dont_export
+
+* Resources
+#+begin_src plantuml
+  @startuml
+<style>
+timingDiagram {
+  LineColor transparent
+  timeline {
+    LineColor #3
+  }
+  concise {
+    LineColor darkgreen
+  }
+  binary {
+    LineColor darkgreen
+  }
+}
+</style>
+mode compact
+
+@-2
+binary "Y=1" as y
+binary "Z=1" as z
+binary "X starts as 1" as x
+concise " " as grp1
+binary "XY" as xy
+binary "X'" as nx
+concise " " as grp2
+binary "X'Z" as nxz
+concise " " as grp3
+binary "OR (final output)" as or
+
+grp1 is {hidden}
+grp2 is {hidden}
+grp3 is {hidden}
+
+x is 1
+y is 1
+z is 1
+nx is 0
+xy is 1
+nxz is 0
+or is 1
+
+
+concise " " as C
+
+@0
+x is 0
+C is "Propagate"
+
+@1
+nx is 1
+xy is 0
+
+@2
+nxz is 1
+or is 0
+
+C is "Glitch"
+
+@3
+or is 1
+C is "Stable"
+
+@4
+@enduml
+#+end_src
